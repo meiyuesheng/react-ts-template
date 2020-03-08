@@ -8,13 +8,4 @@ import App from './app'
 
 import './index.scss'
 
-
-
-
-
-
-ReactDom.render(<App />, document.getElementById('root'));
-
-
-
-
+ReactDom.render(<App />, document.getElementById('root'))
