@@ -1,0 +1,11 @@
+ const decodedMetricName = decodeMetricName(m.name)
+
+
+ 
+    // const localeMetricName = `[${getAggregatorLocale(
+    //   m.agg
+    // )}] ${decodedMetricName}`
+
+
+
+    const localeMetricName = getLocaleMetricName(m.agg, decodedMetricName)
