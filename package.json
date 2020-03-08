@@ -16,7 +16,7 @@
   },
   "lint-staged": {
     "src/**/*.{jsx,tsx,ts,js,json,css,md}": [
-      "prettier --write --error",
+      "prettier --write --loglevel 'debug'",
       "eslint --fix",
       "git add"
     ]
